@@ -1,0 +1,268 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Alfa Slab One', cursive;
+}
+
+hr{
+	position: relative;
+            top: 20px;
+            border: none;
+            height: 12px;
+            background: #261313;
+            margin-bottom: 50px;
+			border-radius: 15px;
+}
+body{
+	
+	background-color: #D8D1C8;
+
+}
+
+img{
+	align-content: center;
+	transition: transform 1.5s;
+	position: sticky;
+	top: 0px;
+	border-radius: 15px;
+	box-shadow: rgba(228,221,221, 0.50) 10%;
+}
+
+img:hover{
+	transform: translateY(-20px);	
+}
+
+@font-face {
+  font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+  src: url(sansation_light.woff);
+}
+
+.PL img{
+	opacity: 40%;
+}
+
+.Me img{
+	width: 550px;
+	height: 450px;
+	border-radius: 5%;
+}
+
+.DV p{
+	padding: 35px;
+}
+
+.IA img{
+	width: 80px;
+	height: 80px;
+}
+
+.EN img{
+	box-shadow: 2px 20px #B3ACA7;
+}
+
+h1{
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+		padding-left: 270px;
+	font-size: 55px;
+	animation-name: slideInLeft;
+	animation-duration: 2s;
+	animation-timing-function: ease-in;
+	animation-delay: 2s;
+	animation-iteration-count: 1;
+	animation-direction: normal;
+	animation-fill-mode: none;
+}
+
+
+
+h2{
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+		padding-left: 270px;
+	padding-top: 80px;
+	
+}
+
+p{
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	align-content: center;
+	font-size: 18px;
+	padding-top: 35px;
+	padding-left: 180px;
+	padding-right: 180px;
+	padding-bottom: 120px;
+}
+
+.PP{
+	padding: 0px;
+	align: center;
+}
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Alfa Slab One', cursive;
+}
+
+table{
+	padding: 10px;
+	border-color: #473524;
+	border-radius: 5%;
+}
+footer{
+	position: absolute;
+	font-size: .70em;
+	font-style: italic;
+	color: beige;
+	padding: 10px;
+	margin-left: 150px;
+	background-color: #3B2310;
+	top: 486px;
+	width: 874px;
+}
+
+.btn{
+	
+	font-size: 2rem;
+	font-weight: 700;
+	padding: 0.5em 1em;
+	color: #8B978B;
+	background-color: #354138;
+	border: 10px solid;
+	border-radius: 5px;
+	border-color: #253523;
+
+	transition: transform 0.3s;
+	 
+}
+
+.btn:hover{
+	transform: translateY(-10px);
+	texr-align: center;
+}
+
+.Lg img{
+	font-size: 2rem;
+	font-weight: 700;
+	padding: 0.5em 1em;
+	color: #8B978B;
+	
+	transition: transform 1.5s;
+	
+}
+
+.Lg:hover{
+	
+	transform: translateY(-20px);	
+}
+
+ul{
+	list-style-type: none;
+}
+
+.header {
+  overflow: hidden;
+  background-color: #D8D1C8;
+  padding: 20px 10px;
+}
+
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.header a:hover {
+  background-color: #EFDFCB;
+  color: black;
+}
+
+
+.header a.active {
+  background-color: #2A4224;
+  color: white;
+}
+
+
+.header-right {
+  float: right;
+}
+
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .header-right {
+    float: none;
+  }
+}
+
+.DI img{
+	width: 300px;
+	height: 300px;
+	align-content: center;
+}
+
+.CN {
+	
+	display:flex;
+	justify-content: center;
+}
+
+.NUM img{
+	width: 80px;
+	height: 80px;
+	
+	padding-left: 80px;
+}
+
+
+@keyframes slideInLeft{
+	from{
+		transform: translateX(-50px);
+	}
+	
+	to{
+		transform: translateX(0);
+	}
+}
+
+.TT table{ 
+	padding: 15px;
+	background-color: #5A6757;
+	border: 10px solid;
+	border-radius: 25px;
+	border-color: #253523;
+		
+}
+
+a{
+	text-decoration: none;
+	color: #F5E1E2;
+}
+
+  .pdf {
+        width: 100%;
+        aspect-ratio: 4 / 3;
+    }
+
+    .pdf,
+    html,
+    body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
